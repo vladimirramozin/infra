@@ -65,7 +65,7 @@ DATABASES = {
         'HOST': os.getenv('DB_HOST', 'db'),
         'PORT': os.getenv('DB_PORT', '5432')
     }
-} 
+}
 
 AUTH_PASSWORD_VALIDATORS = [
     {
